@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TÍTULO DA PÁGINA -->
+    <title>GTA VI - Vice City | Site Oficial</title>
+
+    <!-- METATAGS DE SEO E DESCRIÇÃO -->
+    <meta name="description" content="Explore o universo de GTA VI e as ruas iluminadas de Vice City em Leonida.">
+    <meta name="keywords" content="GTA 6, GTA VI, Vice City, Leonida, Rockstar, Jogos">
+    <meta name="author" content="Flavio Santana">
+
+    <!-- FAVICONS (Ícone na aba do navegador) -->
+    <!-- Favicon padrão -->
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+    <!-- Ícone para dispositivos Apple (iPhone/iPad) -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- METATAGS DE COMPARTILHAMENTO (Open Graph / WhatsApp / Discord / Facebook) -->
+    <meta property="og:title" content="GTA VI - Vice City | Experiência Next-Gen">
+    <meta property="og:description" content="Sinta a energia de Leonida e Vice City. Confira o projeto completo!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seusite.com.br"> <!-- Cole o link do seu site publicado aqui -->
+    <meta property="og:image" content="https://seusite.com.br/banner-gta.jpg">
+    <!-- Link da imagem que vai aparecer ao compartilhar (ex: 1200x39.375rem) -->
+
+    <!-- METATAGS PARA O X (TWITTER CARD) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GTA VI - Vice City | Experiência Next-Gen">
+    <meta name="twitter:description" content="Sinta a energia de Leonida e Vice City. Confira o projeto completo!">
+    <meta name="twitter:image" content="https://seusite.com.br/banner-gta.jpg">
+
+    <!-- SEU ARQUIVO CSS -->
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/section.css">
+    
+
+</head>
+
+<body>
+
+    <section class="slide-container"> <!-- A seção principal da Hero (100vh) -->
+
+        <div class="cenario">
+
+            <header>
+                <nav>
+                    <div>
+                        <button class="anterior"><img src="assets/thumb/botao-play - anterior.png" class="botao-imagem"
+                                alt=""></button>
+                    </div>
+
+                    <a href="#slide-1" class="ativo"><img src="assets/thumb/Lucia GTA 6-comprimida.jpg" alt="Lucia"></a>
+                    <a href="#slide-2"><img src="assets/thumb/GTA 6 Jason-comprimida.jpg" alt="Jason"></a>
+                    <a href="#slide-3"><img src="assets/thumb/Grand Theft Auto V-comprimida.jpg" alt="Franklin"></a>
+                    <a href="#slide-4"><img src="assets/thumb/Michael-comprimida.jpg" alt="Michael"></a>
+                    <a href="#slide-5"><img src="assets/thumb/Trevor Philips - GTA V-comprimida.jpg" alt="Trevor"></a>
+
+                    <label class="voce">
+                        <img class="botao-input" src="assets/thumb/voce.png" alt="">
+                        <input type="file" accept="image/*" hidden onchange="lerFoto(this)">
+                    </label>
+
+                    <div>
+                        <button class="proximo">
+                            <img src="assets/thumb/proximo.png" class="botao-imagem" alt="Próximo">
+                        </button>
+                    </div>
+
+                </nav>
+            </header>
+
+            <article>
+                <div class="textos">
+
+                    <h3>[Tirar Selfie]</h3>
+
+                </div>
+            </article>
+
+            <!-- Elementos do Carrossel / Slide -->
+            <article class="slide ativo" id="slide-1"> <!-- SLIDE 1 -->
+
+                <figure>
+                    <h1 id="nome">Lucia</h1>
+                    <img src="assets/personagem/lucia.png" id="personagem" class="principal" alt="lucia">
+                    <div id="carregamento" class="carregamento" hidden>
+                        <span class="carregamento-spinner"></span>
+                        <span>Gerando sua imagem...</span>
+                    </div>
+                    <!-- Foto do personagem -->
+                </figure>
+
+            </article>
+
+            <article class="slide " id="slide-2"> <!-- SLIDE 2 -->
+
+                <figure>
+                    <h2>jason</h2>
+                    <img src="assets/personagem/jason.png" class="principal" alt="jason">
+                    <!-- Foto do personagem -->
+                </figure>
+            </article>
+
+            <article class="slide" id="slide-3"> <!-- SLIDE 3 -->
+
+                <figure>
+                    <h2>frank</h2>
+                    <img src="assets/personagem/frankilin.png" class="principal" alt="franklin">
+                    <!-- Foto do personagem -->
+                </figure>
+
+            </article>
+
+            <article class="slide" id="slide-4"> <!-- SLIDE 4 -->
+                <figure>
+                    <h2>michael</h2>
+                    <img src="assets/personagem/michael.png" class="principal" alt="michael">
+                    <!-- Foto do personagem -->
+                </figure>
+
+            </article>
+
+            <article class="slide" id="slide-5"> <!-- SLIDE 5 -->
+
+                <figure>
+                    <h2>trevor</h2>
+                    <img src="assets/personagem/baixados__1_-removebg-preview.png" class="principal" alt="trevor">
+                    <!-- Foto do personagem -->
+                </figure>
+            </article>
+        </div>
+
+    </section>
+
+    <!-- Conteúdo do site -->
+      <script src="https://js.puter.com/v2/"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

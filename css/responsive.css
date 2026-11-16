@@ -1,0 +1,174 @@
+
+
+/* ==================== RESPONSIVO ==================== */
+
+/* ---------- ate 1200px ---------- */
+@media (max-width: 1200px) {
+
+    nav {
+        gap: 16px;
+    }
+
+    nav a img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .principal {
+        max-width: 360px;
+    }
+
+}
+
+/* ---------- ate 991px ---------- */
+@media (max-width: 991px) {
+
+    header {
+        padding: 12px 24px;
+    }
+
+    nav a img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .botao-input {
+        width: 56px;
+    }
+
+    .principal {
+        width: 60%;
+        max-width: 320px;
+    }
+
+}
+
+/* ---------- ate 768px ---------- */
+@media (max-width: 768px) {
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .botao-input {
+        width: 48px;
+    }
+
+    button {
+        max-width: 64px;
+    }
+
+    .anterior img,
+    .proximo img {
+        width: 40px;
+    }
+
+    .principal {
+        width: 70%;
+        max-width: 280px;
+    }
+
+    .carregamento {
+        min-height: 120px;
+        padding: 16px;
+    }
+
+    .textos h3 {
+        font-size: 24px;
+    }
+
+}
+
+/* ---------- ate 560px ---------- */
+@media (max-width: 560px) {
+
+
+
+    header {
+        padding: 8px 16px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .botao-input {
+        width: 40px;
+    }
+
+    button {
+        max-width: 48px;
+    }
+
+    .anterior img,
+    .proximo img {
+        width: 32px;
+    }
+
+    .principal {
+        width: 80%;
+        max-width: 240px;
+    }
+
+    .carregamento {
+        width: 90vw;
+        gap: 8px;
+        padding: 16px;
+        font-size: 0.875rem;
+    }
+
+    .carregamento-spinner {
+        width: 24px;
+        height: 24px;
+    }
+
+    #nome {
+
+        font-size: 100px;
+
+    }
+
+    .slide h2 {
+
+        font-size: 72px;
+
+
+    }
+
+}
+
+/* ---------- ate 480px ---------- */
+@media (max-width: 480px) {
+
+    nav a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .principal {
+        width: 88%;
+        max-width: 210px;
+    }
+
+    .carregamento {
+        min-height: 96px;
+    }
+
+    
+
+    .textos h3 {
+        font-size: 20px;
+    }
+
+}
