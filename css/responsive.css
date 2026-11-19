@@ -80,7 +80,7 @@
     }
 
     .textos h3 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
 }
@@ -168,7 +168,7 @@
 
     /* Personagem ativo (h1 / #nome) */
     #nome {
-        font-size: 80px !important;
+        font-size: 4.5rem !important;
         line-height: 1.15 !important;
     }
 
@@ -178,11 +178,11 @@
     section h2,
     article h2,
     div h2 {
-        font-size: 56px !important;
+        font-size: 3rem !important;
         line-height: 1.2 !important;
     }
 
     .textos h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
