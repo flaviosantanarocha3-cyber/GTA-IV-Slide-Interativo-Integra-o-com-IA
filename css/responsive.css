@@ -5,6 +5,11 @@
 /* ---------- ate 1200px ---------- */
 @media (max-width: 1200px) {
 
+    html{
+
+        font-size: 50%;
+    }
+
     nav {
         gap: 16px;
     }
